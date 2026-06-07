@@ -77,7 +77,7 @@ A production-grade automated fleet health monitoring and self-healing platform f
 | Self-Healing Remediation | Maps failure types to actions (restart service, clear disk, reboot, replace instance) executed via SSM Run Command |
 | Incident Tracking | Full lifecycle tracking in DynamoDB with TTL-based retention (DETECTED → DIAGNOSED → REMEDIATED → RESOLVED/ESCALATED) |
 | Escalation Pipeline | Detailed SNS alerts with failure context, remediation history, and runbook links |
-| Observability | CloudWatch dashboard with fleet health, remediation rates, latency percentiles; 5 configurable alarms |
+| Observability | CloudWatch dashboard with fleet health, remediation rates, latency percentiles; 4 configurable alarms |
 | Infrastructure as Code | 3 independent CDK stacks with L3 constructs, least-privilege IAM |
 | CI/CD | GitHub Actions pipeline: lint → type-check → test (80% coverage) → cdk synth → security audit |
 
